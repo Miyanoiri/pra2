@@ -16,10 +16,12 @@ public class Piyo
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
+
+        System.out.println( " H E L L O   W O R L D ! " );
     }
 	
 	public String getPassword(String userId) {
-		//return idPassMap.get(userId);
-		return null;
+		return idPassMap.get(userId);
+		//return null;
 	}
 }
